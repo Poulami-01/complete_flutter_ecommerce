@@ -7,10 +7,10 @@ import 'provider/user_provider.dart';
 
 void main() {
   runApp(ChangeNotifierProvider(builder: (_) => UserProvider.initialize(),
-  child: MaterialApp(
+  child: scaffold(
     debugShowCheckedModeBanner: false,
     theme: ThemeData(
-        primaryColor: Colors.deepOrange
+        primaryColor: Colors.deepblue
     ),
     home: ScreensController(),
   )));
